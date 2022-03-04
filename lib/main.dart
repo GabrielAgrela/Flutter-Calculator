@@ -117,9 +117,9 @@ class _HomePageState extends State<HomePage>
           (
             // Padding from all sides excepting top
             padding: const EdgeInsets.fromLTRB(10,0,10,10),
-            // I dont want it so be scrollable
+            // I dont want it to be scrollable
             physics: const NeverScrollableScrollPhysics(),
-            // I want this grid to mantain it's size
+            // I want this grid to mantain its size
             shrinkWrap: true,
             itemCount: buttons.length,
             // type of grid I wanna draw is a fixed 4 column one
